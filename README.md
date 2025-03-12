@@ -1,7 +1,7 @@
 # Examen_1_AppServWEB_Mi_18_20
 Examen evaluativo de la asignatura Aplicaciones y Servicios Web
 
-## Descripción del Problema
+## Descripción del Problema ❔
 La agencia de venta de viviendas "ITM" tiene una única sede ubicada en la ciudad de
 Medellín. Requiere un sistema para grabar las ventas de las viviendas que ofrece, sólo
 ofrece viviendas nuevas.
@@ -18,18 +18,20 @@ urbanización, entre otras. Sólo considere las entidades sugeridas: agencia, cl
 tipo de vivienda, vivienda y venta.
 
 
-### Se solicita:
+### Se solicita : ✏️ ✔️
 - Debe crear una base de datos en SQL Server con el diagrama de datos que tenga las relaciones
 entre las tablas.
 - Elabore un servicio REST para Elaborar consultas (Al menos dos), el insert, update y delete
 en la base de datos para el registro de las viviendas.
 - Implemente las pruebas de todos los servicios desde Postman y grabe la información de ellas.
 
-## Tablas
+## Tablas 📑
 
-## Diagrama
+## Diagrama 📎
 
-## Contribuidores
+## Video: Explicativo y Desmostrativo Postman 🔴
+
+## Contribuidores 🫂
 <!-- readme: contributors -start -->
 <table>
 	<tbody>
