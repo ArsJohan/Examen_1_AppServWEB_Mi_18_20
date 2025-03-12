@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "d3432531-4edf-4dfc-86ef-0d396a4b744b",
+		"name": "REST API CRUD Ventas Viviendas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38469054"
+	},
+	"item": [
+		{
+			"name": "Vivienda",
+			"item": [
+				{
+					"name": "consultarVivienda",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url_vivienda}}/consultarVivienda?codigo=4",
+							"host": [
+								"{{base_url_vivienda}}"
+							],
+							"path": [
+								"consultarVivienda"
+							],
+							"query": [
+								{
+									"key": "codigo",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consultarTodos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url_vivienda}}/consultarTodos",
+							"host": [
+								"{{base_url_vivienda}}"
+							],
+							"path": [
+								"consultarTodos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "insertarVivienda",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url_vivienda}}/insertarVivienda",
+							"host": [
+								"{{base_url_vivienda}}"
+							],
+							"path": [
+								"insertarVivienda"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actualizarVivienda",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"codigo\": 4,\r\n  \"numBanos\": \"2\",\r\n  \"numCuartos\": \"3\",\r\n  \"tamano\": 200,\r\n  \"numPisos\": 1,\r\n  \"accessories\": \"Zonas comunes,piscina\",\r\n  \"precio\": 100000000,\r\n  \"tipoVi\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_vivienda}}/actualizarVivienda",
+							"host": [
+								"{{base_url_vivienda}}"
+							],
+							"path": [
+								"actualizarVivienda"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "eliminarVivienda",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"codigo\": 4,\r\n  \"numBanos\": \"2\",\r\n  \"numCuartos\": \"3\",\r\n  \"tamano\": 124,\r\n  \"numPisos\": 1,\r\n  \"accessories\": \"Zonas comunes, jardin, piscina\",\r\n  \"precio\": 100000000,\r\n  \"tipoVi\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url_vivienda}}/eliminarVivienda",
+							"host": [
+								"{{base_url_vivienda}}"
+							],
+							"path": [
+								"eliminarVivienda"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Servicio REST para el registro de las viviendas."
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url_vivienda",
+			"value": "http://localhost:50647/api/Viviendas",
+			"type": "string"
+		}
+	]
+}
