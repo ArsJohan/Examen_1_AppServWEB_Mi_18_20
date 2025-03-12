@@ -26,6 +26,138 @@ en la base de datos para el registro de las viviendas.
 - Implemente las pruebas de todos los servicios desde Postman y grabe la información de ellas.
 
 ## Tablas 📑
+# Untitled Diagram documentation
+## Summary
+
+- [Introduction](#introduction)
+- [Database Type](#database-type)
+- [Table Structure](#table-structure)
+	- [Vivienda ](#Vivienda )
+	- [Agencia](#Agencia)
+	- [cliente](#cliente)
+	- [tipoVivienda](#tipoVivienda)
+	- [venta](#venta)
+- [Relationships](#relationships)
+- [Database Diagram](#database-Diagram)
+
+## Introduction
+
+## Database type
+
+- **Database system:** Generic
+## Table structure
+
+### Vivienda 
+
+| Name        | Type          | Settings                      | References                    | Note                           |
+|-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
+| **codigo** | INT | 🔑 PK, not null , unique, autoincrement | fk_Vivienda _codigo_venta | |
+| **numBanos** | VARCHAR(255) | not null  |  | |
+| **numCuartos** | VARCHAR(255) | not null  |  | |
+| **tamano** | INT | not null  |  | |
+| **numPisos** | INT | not null  |  | |
+| **accesorios** | TEXT(65535) | not null  |  | |
+| **precio** | FLOAT | not null  |  | |
+| **tipoVi** | INT | not null  |  | | 
+
+
+### Agencia
+
+| Name        | Type          | Settings                      | References                    | Note                           |
+|-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
+| **codigo** | INT | 🔑 PK, not null , unique, autoincrement | fk_Agencia_codigo_venta | |
+| **nombre** | VARCHAR(255) | not null  |  | |
+| **sede** | VARCHAR(255) | not null  |  | | 
+
+
+### cliente
+
+| Name        | Type          | Settings                      | References                    | Note                           |
+|-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
+| **codigo** | INT | 🔑 PK, not null , unique, autoincrement | fk_cliente_codigo_venta | |
+| **nombre** | VARCHAR(255) | not null  |  | |
+| **apellido** | VARCHAR(255) | not null  |  | |
+| **telefono** | INT | not null  |  | |
+| **correo** | VARCHAR(255) | not null  |  | | 
+
+
+### tipoVivienda
+
+| Name        | Type          | Settings                      | References                    | Note                           |
+|-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
+| **codigo** | INT | 🔑 PK, not null , unique, autoincrement | fk_tipoVivienda_codigo_Vivienda  | |
+| **nombre** | VARCHAR(255) | not null  |  | |
+| **activo** | BOOLEAN | not null  |  | | 
+
+
+### venta
+
+| Name        | Type          | Settings                      | References                    | Note                           |
+|-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
+| **codigo** | INT | 🔑 PK, not null , unique, autoincrement |  | |
+| **fechaCompra** | DATETIME | not null  |  | |
+| **Valor** | FLOAT | not null  |  | |
+| **cliente** | INT | not null  |  | |
+| **agencia** | INT | not null  |  | |
+| **vievienda** | INT | not null  |  | | 
+
+
+## Relationships
+
+- **cliente to venta**: one_to_many
+- **tipoVivienda to Vivienda **: one_to_many
+- **Agencia to venta**: one_to_many
+- **Vivienda  to venta**: one_to_one
+
+## Database Diagram
+
+```mermaid
+erDiagram
+	cliente ||--o{ venta : references
+	tipoVivienda ||--o{ Vivienda  : references
+	Agencia ||--o{ venta : references
+	Vivienda  ||--|| venta : references
+
+	Vivienda  {
+		INT codigo
+		VARCHAR(255) numBanos
+		VARCHAR(255) numCuartos
+		INT tamano
+		INT numPisos
+		TEXT(65535) accesorios
+		FLOAT precio
+		INT tipoVi
+	}
+
+	Agencia {
+		INT codigo
+		VARCHAR(255) nombre
+		VARCHAR(255) sede
+	}
+
+	cliente {
+		INT codigo
+		VARCHAR(255) nombre
+		VARCHAR(255) apellido
+		INT telefono
+		VARCHAR(255) correo
+	}
+
+	tipoVivienda {
+		INT codigo
+		VARCHAR(255) nombre
+		BOOLEAN activo
+	}
+
+	venta {
+		INT codigo
+		DATETIME fechaCompra
+		FLOAT Valor
+		INT cliente
+		INT agencia
+		INT vievienda
+	}
+```
 
 ## Diagrama 📎
 
