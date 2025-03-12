@@ -3,13 +3,21 @@ Examen evaluativo de la asignatura Aplicaciones y Servicios Web.
 
 ## Indice
 - [Descripción del Problema](#Descripción-del-Problema)
+  
 	- [Se solicita](#Se-solicita)
+   
  - [Tablas](#Tablas)
-	-[Vivienda](#Vivienda)
-	-[Agencia](#Agencia)
-	-[Cliente](#Cliente)
-	-[tipoVivienda](#tipoVivienda)
-	-[venta](#venta)
+   
+	- [Vivienda](#Vivienda)
+
+	- [Agencia](#Agencia)
+
+	- [Cliente](#Cliente)
+
+	- [tipoVivienda](#tipoVivienda)
+
+	- [Venta](#Venta)
+
 - [Relaciones](#Relaciones)
 
 ## Descripción del Problema ❔
@@ -81,7 +89,7 @@ en la base de datos para el registro de las viviendas.
 | **activo** | BOOLEAN | not null  |  | | 
 
 
-### venta
+### Venta
 
 | Name        | Type          | Settings                      | References                    | Note                           |
 |-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
