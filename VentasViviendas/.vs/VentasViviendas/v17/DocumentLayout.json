@@ -1,172 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\",
+  "WorkspaceRootPath": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\clases\\clsviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:clases\\clsviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\vivienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\vivienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\tipovivienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\tipovivienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\dbventasviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\dbventasviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\agencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\dbventasviviendas.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\dbventasviviendas.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\controllers\\viviendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\sanch\\onedrive\\documentos\\parcial1 de app\\examen_1_appservweb_mi_18_20\\ventasviviendas\\controllers\\viviendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:controllers\\viviendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\sanch\\onedrive\\documentos\\parcial1 de app\\examen_1_appservweb_mi_18_20\\ventasviviendas\\clases\\clsviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:clases\\clsviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 290,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViviendasController.cs",
+              "DocumentMoniker": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Controllers\\ViviendasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ViviendasController.cs",
+              "ToolTip": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Controllers\\ViviendasController.cs",
+              "RelativeToolTip": "Controllers\\ViviendasController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA5wDcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:14:13.35Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Vivienda.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Vivienda.cs",
-              "RelativeDocumentMoniker": "Models\\Vivienda.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Vivienda.cs",
-              "RelativeToolTip": "Models\\Vivienda.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T19:43:22.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TipoVivienda.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\TipoVivienda.cs",
-              "RelativeDocumentMoniker": "Models\\TipoVivienda.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\TipoVivienda.cs",
-              "RelativeToolTip": "Models\\TipoVivienda.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T19:42:43.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DBVentasViviendas.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\DBVentasViviendas.cs",
-              "RelativeDocumentMoniker": "Models\\DBVentasViviendas.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\DBVentasViviendas.cs",
-              "RelativeToolTip": "Models\\DBVentasViviendas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T19:42:42.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T19:42:31.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Agencia.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Agencia.cs",
-              "RelativeDocumentMoniker": "Models\\Agencia.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Agencia.cs",
-              "RelativeToolTip": "Models\\Agencia.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T19:42:16.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DBVentasViviendas.tt",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\DBVentasViviendas.tt",
-              "RelativeDocumentMoniker": "Models\\DBVentasViviendas.tt",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\DBVentasViviendas.tt",
-              "RelativeToolTip": "Models\\DBVentasViviendas.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-12T19:42:14.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "clsViviendas.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs",
+              "DocumentMoniker": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs",
               "RelativeDocumentMoniker": "Clases\\clsViviendas.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs",
+              "ToolTip": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs",
               "RelativeToolTip": "Clases\\clsViviendas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwEsAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:21:28.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Venta.cs",
-              "RelativeDocumentMoniker": "Models\\Venta.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Venta.cs",
-              "RelativeToolTip": "Models\\Venta.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T19:42:56.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ViviendasController.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Controllers\\ViviendasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ViviendasController.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Controllers\\ViviendasController.cs",
-              "RelativeToolTip": "Controllers\\ViviendasController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T18:23:10.003Z",
+              "WhenOpened": "2025-03-12T23:04:06.733Z",
               "EditorCaption": ""
             }
           ]
