@@ -53,8 +53,8 @@ en la base de datos para el registro de las viviendas.
 | Name        | Type          | Settings                      | References                    | Note                           |
 |-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
 | **codigo** | INT | 🔑 PK, not null , unique, autoincrement | fk_Vivienda _codigo_venta | |
-| **numBanos** | VARCHAR(255) | not null  |  | |
-| **numCuartos** | VARCHAR(255) | not null  |  | |
+| **numBanos** | INT | not null  |  | |
+| **numCuartos** | INT| not null  |  | |
 | **tamano** | INT | not null  |  | |
 | **numPisos** | INT | not null  |  | |
 | **accesorios** | TEXT(65535) | not null  |  | |
