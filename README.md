@@ -108,7 +108,9 @@ en la base de datos para el registro de las viviendas.
 - **Agencia to venta**: uno_a_muchos
 - **Vivienda  to venta**: uno_a_uno
   
-## Diagrama 📎
+## Diagrama (Modelo Relacional)📎
+![Modelo Relacional.png](https://github.com/ArsJohan/Examen_1_AppServWEB_Mi_18_20/blob/main/Modelo%20Relacional.png)
+
 
 ## Video: Explicativo y Desmostrativo (Codigo+Postman) 🔴
 
