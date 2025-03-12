@@ -175,6 +175,13 @@ erDiagram
                     <sub><b>Johan   Esteban Arias</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/SYeison">
+                    <img src="https://avatars.githubusercontent.com/u/187584546?v=4" width="100;" alt="SYeison"/>
+                    <br />
+                    <sub><b>Yeison Sanchez</b></sub>
+                </a>
+            </td>
 		</tr>
 	<tbody>
 </table>
