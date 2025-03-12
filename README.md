@@ -30,6 +30,7 @@ en la base de datos para el registro de las viviendas.
 ## Diagrama
 
 ## Contribuidores
-
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
 
