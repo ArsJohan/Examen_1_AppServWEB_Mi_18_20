@@ -1,5 +1,5 @@
 # Examen_1_AppServWEB_Mi_18_20
-Examen evaluativo de la asignatura Aplicaciones y Servicios Web
+Examen evaluativo de la asignatura Aplicaciones y Servicios Web.
 
 ## Descripción del Problema ❔
 La agencia de venta de viviendas "ITM" tiene una única sede ubicada en la ciudad de
@@ -29,7 +29,7 @@ en la base de datos para el registro de las viviendas.
 
 ## Diagrama 📎
 
-## Video: Explicativo y Desmostrativo Postman 🔴
+## Video: Explicativo y Desmostrativo (Codigo+Postman) 🔴
 
 ## Contribuidores 🫂
 <!-- readme: contributors -start -->
