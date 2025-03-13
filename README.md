@@ -21,6 +21,9 @@ Realiado por:
 	- [Venta](#Venta)
 
 - [Relaciones](#Relaciones)
+- [Diagrama](#Diagrama)
+- [Video POSTMAN](#Video)
+- [Contribuidores](#Contribuidores)
 
 ## Descripción del Problema ❔
 La agencia de venta de viviendas "ITM" tiene una única sede ubicada en la ciudad de
@@ -114,7 +117,9 @@ en la base de datos para el registro de las viviendas.
 ![Modelo Relacional.png](https://github.com/ArsJohan/Examen_1_AppServWEB_Mi_18_20/blob/main/Modelo%20Relacional.png)
 
 
-## Video: Explicativo y Desmostrativo (Codigo+Postman) 🔴
+## Video: Explicativo y Desmostrativo (Postman) 🟠
+[![Watch video](https://github.com/user-attachments/assets/653bce68-d004-47e9-bf64-015b9e4ecb20)
+](https://youtu.be/Y6u0Cd0Lsw0)
 
 ## Contribuidores 🫂
 <!-- readme: contributors -start -->
