@@ -169,34 +169,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Agencia.cs">
-      <DependentUpon>DBVentasViviendas.tt</DependentUpon>
+      <DependentUpon>DBVentasVivienda.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Cliente.cs">
-      <DependentUpon>DBVentasViviendas.tt</DependentUpon>
+      <DependentUpon>DBVentasVivienda.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBVentasViviendas.Context.cs">
+    <Compile Include="Models\DBVentasVivienda.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBVentasViviendas.Context.tt</DependentUpon>
+      <DependentUpon>DBVentasVivienda.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBVentasViviendas.cs">
+    <Compile Include="Models\DBVentasVivienda.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBVentasViviendas.tt</DependentUpon>
+      <DependentUpon>DBVentasVivienda.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\DBVentasViviendas.Designer.cs">
+    <Compile Include="Models\DBVentasVivienda.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBVentasViviendas.edmx</DependentUpon>
+      <DependentUpon>DBVentasVivienda.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\TipoVivienda.cs">
-      <DependentUpon>DBVentasViviendas.tt</DependentUpon>
+      <DependentUpon>DBVentasVivienda.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Venta.cs">
-      <DependentUpon>DBVentasViviendas.tt</DependentUpon>
+      <DependentUpon>DBVentasVivienda.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Vivienda.cs">
-      <DependentUpon>DBVentasViviendas.tt</DependentUpon>
+      <DependentUpon>DBVentasVivienda.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -220,15 +220,15 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Models\DBVentasViviendas.Context.tt">
+    <Content Include="Models\DBVentasVivienda.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBVentasViviendas.edmx</DependentUpon>
-      <LastGenOutput>DBVentasViviendas.Context.cs</LastGenOutput>
+      <DependentUpon>DBVentasVivienda.edmx</DependentUpon>
+      <LastGenOutput>DBVentasVivienda.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\DBVentasViviendas.tt">
+    <Content Include="Models\DBVentasVivienda.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBVentasViviendas.edmx</DependentUpon>
-      <LastGenOutput>DBVentasViviendas.cs</LastGenOutput>
+      <DependentUpon>DBVentasVivienda.edmx</DependentUpon>
+      <LastGenOutput>DBVentasVivienda.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -255,12 +255,12 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="Models\DBVentasViviendas.edmx">
+    <EntityDeploy Include="Models\DBVentasVivienda.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBVentasViviendas.Designer.cs</LastGenOutput>
+      <LastGenOutput>DBVentasVivienda.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\DBVentasViviendas.edmx.diagram">
-      <DependentUpon>DBVentasViviendas.edmx</DependentUpon>
+    <Content Include="Models\DBVentasVivienda.edmx.diagram">
+      <DependentUpon>DBVentasVivienda.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />

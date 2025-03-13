@@ -9,7 +9,6 @@
 
 namespace VentasViviendas.Models
 {
-    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -22,18 +21,15 @@ namespace VentasViviendas.Models
         }
     
         public int codigo { get; set; }
-        public string numBanos { get; set; }
-        public string numCuartos { get; set; }
+        public Nullable<int> numBanos { get; set; }
+        public Nullable<int> numCuartos { get; set; }
         public Nullable<int> tamano { get; set; }
         public Nullable<int> numPisos { get; set; }
         public string accessories { get; set; }
         public Nullable<double> precio { get; set; }
         public Nullable<int> tipoVi { get; set; }
-
-        [JsonIgnore]
+    
         public virtual TipoVivienda TipoVivienda { get; set; }
-
-        [JsonIgnore]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Venta> Ventas { get; set; }
     }

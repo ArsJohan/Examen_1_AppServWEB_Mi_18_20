@@ -20,7 +20,7 @@
           <Property Name="codigo" Type="int" Nullable="false" />
           <Property Name="nombre" Type="varchar" MaxLength="255" />
           <Property Name="apellido" Type="varchar" MaxLength="255" />
-          <Property Name="telefono" Type="varchar" MaxLength="1" />
+          <Property Name="telefono" Type="varchar" MaxLength="255" />
           <Property Name="correo" Type="varchar" MaxLength="255" />
         </EntityType>
         <EntityType Name="TipoVivienda">
@@ -47,8 +47,8 @@
             <PropertyRef Name="codigo" />
           </Key>
           <Property Name="codigo" Type="int" Nullable="false" />
-          <Property Name="numBanos" Type="varchar" MaxLength="255" />
-          <Property Name="numCuartos" Type="varchar" MaxLength="255" />
+          <Property Name="numBanos" Type="int" />
+          <Property Name="numCuartos" Type="int" />
           <Property Name="tamano" Type="int" />
           <Property Name="numPisos" Type="int" />
           <Property Name="accessories" Type="text" />
@@ -147,7 +147,7 @@
           <Property Name="codigo" Type="Int32" Nullable="false" />
           <Property Name="nombre" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="apellido" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="telefono" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="telefono" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <Property Name="correo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="Ventas" Relationship="Self.FK__Venta__cliente__403A8C7D" FromRole="Cliente" ToRole="Venta" />
         </EntityType>
@@ -179,8 +179,8 @@
             <PropertyRef Name="codigo" />
           </Key>
           <Property Name="codigo" Type="Int32" Nullable="false" />
-          <Property Name="numBanos" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="numCuartos" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="numBanos" Type="Int32" />
+          <Property Name="numCuartos" Type="Int32" />
           <Property Name="tamano" Type="Int32" />
           <Property Name="numPisos" Type="Int32" />
           <Property Name="accessories" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
