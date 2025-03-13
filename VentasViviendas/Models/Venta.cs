@@ -9,6 +9,7 @@
 
 namespace VentasViviendas.Models
 {
+    using Newtonsoft.Json;
     using System;
     using System.Collections.Generic;
     
@@ -20,9 +21,12 @@ namespace VentasViviendas.Models
         public Nullable<int> cliente { get; set; }
         public Nullable<int> agencia { get; set; }
         public Nullable<int> vivienda { get; set; }
-    
+
+        [JsonIgnore]
         public virtual Agencia Agencia1 { get; set; }
+        [JsonIgnore]
         public virtual Cliente Cliente1 { get; set; }
+        [JsonIgnore]
         public virtual Vivienda Vivienda1 { get; set; }
     }
 }
