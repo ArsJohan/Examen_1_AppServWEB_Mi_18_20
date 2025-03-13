@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\",
+  "WorkspaceRootPath": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\models\\vivienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:models\\vivienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,21 +33,33 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\johan\\source\\repos\\examen_1_appservweb_mi_18_20\\ventasviviendas\\clases\\clsviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\sanch\\onedrive\\documentos\\parcial1 de app\\examen_1_appservweb_mi_18_20\\ventasviviendas\\controllers\\viviendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:controllers\\viviendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|c:\\users\\sanch\\onedrive\\documentos\\parcial1 de app\\examen_1_appservweb_mi_18_20\\ventasviviendas\\clases\\clsviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 9c5858ad5a2c25519a8d71a4d42c420ca12c0280
       "RelativeMoniker": "D:0:0:{DDF62734-80E8-45DD-8607-9C3E8513482D}|VentasViviendas.csproj|solutionrelative:clases\\clsviviendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< HEAD
           "DockedHeight": 290,
+=======
+          "DockedWidth": 200,
+>>>>>>> 9c5858ad5a2c25519a8d71a4d42c420ca12c0280
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "Vivienda.cs",
               "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Models\\Vivienda.cs",
               "RelativeDocumentMoniker": "Models\\Vivienda.cs",
@@ -142,14 +155,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
+=======
+              "Title": "ViviendasController.cs",
+              "DocumentMoniker": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Controllers\\ViviendasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ViviendasController.cs",
+              "ToolTip": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Controllers\\ViviendasController.cs",
+              "RelativeToolTip": "Controllers\\ViviendasController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAA5wDkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:14:13.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> 9c5858ad5a2c25519a8d71a4d42c420ca12c0280
               "Title": "clsViviendas.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs",
+              "DocumentMoniker": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs",
               "RelativeDocumentMoniker": "Clases\\clsViviendas.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\johan\\source\\repos\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs",
               "RelativeToolTip": "Clases\\clsViviendas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T18:21:28.111Z",
+=======
+              "ToolTip": "C:\\Users\\sanch\\OneDrive\\Documentos\\Parcial1 de APP\\Examen_1_AppServWEB_Mi_18_20\\VentasViviendas\\Clases\\clsViviendas.cs*",
+              "RelativeToolTip": "Clases\\clsViviendas.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwEsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T23:04:06.733Z",
+>>>>>>> 9c5858ad5a2c25519a8d71a4d42c420ca12c0280
               "EditorCaption": ""
             }
           ]

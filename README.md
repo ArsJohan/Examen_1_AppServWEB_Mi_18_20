@@ -1,5 +1,7 @@
 # Examen_1_AppServWEB_Mi_18_20
-Examen evaluativo de la asignatura Aplicaciones y Servicios Web.
+Examen evaluativo de la asignatura Aplicaciones y Servicios Web. 
+Realiado por:
+**Johan Esteba Arias y Yeison Andres Sanchez Rodas**
 
 ## Indice
 - [Descripción del Problema](#Descripción-del-Problema)
@@ -51,8 +53,8 @@ en la base de datos para el registro de las viviendas.
 | Name        | Type          | Settings                      | References                    | Note                           |
 |-------------|---------------|-------------------------------|-------------------------------|--------------------------------|
 | **codigo** | INT | 🔑 PK, not null , unique, autoincrement | fk_Vivienda _codigo_venta | |
-| **numBanos** | VARCHAR(255) | not null  |  | |
-| **numCuartos** | VARCHAR(255) | not null  |  | |
+| **numBanos** | INT | not null  |  | |
+| **numCuartos** | INT| not null  |  | |
 | **tamano** | INT | not null  |  | |
 | **numPisos** | INT | not null  |  | |
 | **accesorios** | TEXT(65535) | not null  |  | |
@@ -108,7 +110,9 @@ en la base de datos para el registro de las viviendas.
 - **Agencia to venta**: uno_a_muchos
 - **Vivienda  to venta**: uno_a_uno
   
-## Diagrama 📎
+## Diagrama (Modelo Relacional)📎
+![Modelo Relacional.png](https://github.com/ArsJohan/Examen_1_AppServWEB_Mi_18_20/blob/main/Modelo%20Relacional.png)
+
 
 ## Video: Explicativo y Desmostrativo (Codigo+Postman) 🔴
 
