@@ -21,9 +21,9 @@ Realiado por:
 	- [Venta](#Venta)
 
 - [Relaciones](#Relaciones)
-- [Diagrama](#Diagrama)
-- [Video POSTMAN](#Video)
-- [Contribuidores](#Contribuidores)
+- [Diagrama](#diagrama-modelo-relacional)
+- [Video POSTMAN](#video-explicativo-y-desmostrativo-postman-)
+- [Contribuidores](#contribuidores-)
 
 ## Descripción del Problema ❔
 La agencia de venta de viviendas "ITM" tiene una única sede ubicada en la ciudad de
