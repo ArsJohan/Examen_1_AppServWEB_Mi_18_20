@@ -30,8 +30,8 @@ GO
 
 CREATE TABLE Vivienda (
     codigo INT PRIMARY KEY,
-    numBanos VARCHAR(255),
-    numCuartos VARCHAR(255),
+    numBanos INT,
+    numCuartos INT,
     tamano INT,
     numPisos INT,
     accessories TEXT,

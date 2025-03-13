@@ -22,8 +22,8 @@ namespace VentasViviendas.Models
         }
     
         public int codigo { get; set; }
-        public string numBanos { get; set; }
-        public string numCuartos { get; set; }
+        public Nullable<int> numBanos { get; set; }
+        public Nullable<int> numCuartos { get; set; }
         public Nullable<int> tamano { get; set; }
         public Nullable<int> numPisos { get; set; }
         public string accessories { get; set; }

@@ -24,8 +24,7 @@ namespace VentasViviendas.Models
 
         [JsonIgnore]
         public virtual Agencia Agencia1 { get; set; }
-
-        [JsonIgnore]
+        [JsonIgnore]    
         public virtual Cliente Cliente1 { get; set; }
         [JsonIgnore]
         public virtual Vivienda Vivienda1 { get; set; }
